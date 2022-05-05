@@ -1,10 +1,15 @@
+
+//selecionar o formulário e impedir que o mesmo seja enviado sem as informações 
 document.querySelector('.busca').addEventListener('submit', async (event) => {
     event.preventDefault();
 
+    //Selecionar se valor foi digitado pelo usuário
     let input = document.querySelector('#searchInput').value;
     
     if(input !== '') {
         clearInfo();
+
+        //Mos
         showWarning('Carregando...');
 
         let results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=
@@ -50,6 +55,8 @@ function clearInfo() {
     document.querySelector('.resultado').style.display = 'none';
 }
 
+
+// Função que mostra ao usuário que está carregando as informações
 function showWarning(msg) {
     document.querySelector('.aviso').innerHTML = msg;
 }
