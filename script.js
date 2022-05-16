@@ -36,7 +36,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
             });
         } else {
             clearInfo();
-            showWarning('Não encontramos esta localização.');
+            showWarning('Não encontramos esta localização. Verifique se foi digitado corretamente');
         }
     } else {
         clearInfo();
