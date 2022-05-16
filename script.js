@@ -9,18 +9,27 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
     if(input !== '') {
         clearInfo();
 
-        //Mos
+        //Mostra a menssagem de espera
         showWarning('Carregando...');
 
+
+        //Conectando com a nossa API do site OpenWeather. Fazer a requisição e buscar resposta com fetch.
         let results = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=
-        ${encodeURI(input)}&units=metric&lang=pt_br&appid=d06cdb298fafc83c520d5ab677fc477e`);
+        ${encodeURI(input)}&units=metric&lang=pt_br&appid=39db3334c13de78069d16a7e44c8227c`);
+
+        //
         let json = await results.json();
 
+        
+        
+        
+        
         if(json.cod === 200) {
             showInfo({
                 name: json.name,
                 country: json.sys.country,
                 temp: json.main.temp,
+                description: json.weather[0].description,
                 tempIcon: json.weather[0].icon,
                 windSpeed: json.wind.speed,
                 windAngle: json.wind.deg
@@ -40,6 +49,9 @@ function showInfo(obj) {
     document.querySelector('.titulo').innerHTML = `${obj.name}, ${obj.country}`;
     
     document.querySelector('.tempInfo').innerHTML = `${obj.temp} <sup>ºC</sup>`;
+    document.querySelector('.tempInfo-description').innerHTML = `${obj.description}`;
+
+    
     document.querySelector('.ventoInfo').innerHTML = `${obj.windSpeed} <span>km/h</span>`;
 
     document.querySelector('.temp img').setAttribute('src', 
