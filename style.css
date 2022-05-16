@@ -10,18 +10,18 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #333;
+    background-color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: #FFF;
-    margin: 20px 0;
+    color: rgb(5, 5, 5);
+    margin: 28px 0;
 }
 
 .busca {
     display: flex;
-    width: 300px;
+    width: 800px;
 }
 .busca #searchInput {
     flex: 1;
@@ -30,12 +30,15 @@ h1 {
     font-size: 15px;
     border-radius: 5px;
     border: 0;
+    border-bottom: 2px solid rgba( 150, 163, 171, .5);
+    
+    outline: 0;
 }
 .busca button {
     padding: 10px;
     font-size: 15px;
     border: 0;
-    background-color: #555;
+    background-color: rgb(255, 63, 111);
     color: #FFF;
     border-radius: 5px;
     margin-left: 10px;
@@ -46,12 +49,12 @@ h1 {
 }
 
 .resultado {
-    width: 300px;
+    width: 400px;
     display: none;
     border: 1px dotted #FFF;
     margin-top: 20px;
     border-radius: 5px;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 62, 55, 0.526);
 }
 
 .titulo {
@@ -76,16 +79,17 @@ h1 {
     text-align: center;
 }
 .tempTitulo,
-.ventoTitulo {
-    color: #777;
-    font-size: 16px;
+.ventoTitulo, .sentidoventoTitulo{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
     margin-bottom: 5px;
 }
 .tempInfo,
 .ventoInfo {
-    color: #FFF;
+    color: rgb(0, 0, 0);
     font-size: 30px;
     font-weight: bold;
+    
 }
 .tempInfo sup {
     font-size: 15px;

@@ -11,7 +11,7 @@
     <h1>Clima</h1>
 
     <form class="busca">
-        <input type="search" id="searchInput" />
+        <input type="search" id="searchInput" placeholder="Digite aqui o nome da cidade" />
         <button>Buscar</button>
     </form>
 
@@ -19,22 +19,33 @@
         <div class="titulo">--</div>
 
         <div class="info">
+            
             <div class="temp">
                 <div class="tempTitulo">Temperatura</div>
-                <div class="tempInfo">-- <sup>ºC</sup></div>
+                <div class="tempInfo">-- <sup>ºC</sup></div></br>
+                <div class="tempTitulo">Descrição</div>
+                <div class="tempInfo-description">--</div>
                 <img src="http://openweathermap.org/img/wn/10d@2x.png" />
             </div>
-            <div class="vento">
+
+
+            <div class="Velocidade vento">
                 <div class="ventoTitulo">Vento</div>
-                <div class="ventoInfo">-- <span>km/h</span></div>
+                <div class="ventoInfo">-- <span>km/h</span></div></br>
+
+                <div class="sentidoventoTitulo">Vento</div>
+
                 <div class="ventoArea">
+
                     <div class="ventoPonto" style="transform: rotate(0deg)"></div>
                 </div>
             </div>
+        
         </div>
     </div>
 
     <div class="aviso"></div>
+    
 
     <footer>Criado pela B7Web</footer>
 
