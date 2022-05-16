@@ -10,12 +10,7 @@ Feito apenas uma validação básica que caso você digite dá um alert pela fal
 
 </br></br>
 
-<img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/>
-<img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/>
-<img src="https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3"/>
-<img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/>
-<img src="https://img.shields.io/static/v1?label=Github&message=plataforma&color=orange&style=for-the-badge&logo=GITHUB"/>
-<img src="https://img.shields.io/static/v1?label=visualstudio&message=plataforma&color=blue&style=for-the-badge&logo=VISUALSTUDIO"/>
+<img src="https://img.shields.io/static/v1?label=JavaScript&message=linguagem&color=orange&style=for-the-badge&logo=JAVASCRIPT"/><img src="https://img.shields.io/static/v1?label=HTML5&message=linguagem&color=green&style=for-the-badge&logo=HTML5"/><img src="https://img.shields.io/static/v1?label=css3&message=linguagem&color=blue&style=for-the-badge&logo=CSS3"/><img src="https://img.shields.io/static/v1?label=flexbox&message=metodologia&color=yellow&style=for-the-badge&logo=Flexbox"/><img src="https://img.shields.io/static/v1?label=Github&message=plataforma&color=orange&style=for-the-badge&logo=GITHUB"/><img src="https://img.shields.io/static/v1?label=visualstudio&message=plataforma&color=blue&style=for-the-badge&logo=VISUALSTUDIO"/>
 
 
 </br>
@@ -44,17 +39,18 @@ Feito apenas uma validação básica que caso você digite dá um alert pela fal
 - [X] Criação das funções em javascript;
 - [X] Criação de função de alerta e limpeza no formulário;
 - [X] Cadastro no site para análise da API;
-- [X] Conexão e autenticação com API do site 
-- [X] Cadastro no site para análise da API;
-- [X] Criação de função de alerta e limpeza no formulário;
-- [X] Cadastro no site para análise da API;
+- [X] Conexão e autenticação com API do site https://openweathermap.org/api;
+- [X] Exibição das informações na página HTML;
+- [X] Testes e estilização das inforções;
 - [X] Criação de repositório no GitHub
 - [X] Edição de um projeto
 - [X] Criação e edição do Readme
 - [X] Finalização do projeto
 
 ## O que a plataforma é capaz de fazer :checkered_flag:
-
+:trophy: Consumo de informações via API</br>
+:trophy: Recebimento de dados via formulário pelo usuário</br>
+:trophy: Manipulação de dados e retorno ao usuário</br>
 :trophy: Plataforma criada com conceito de responsividade.</br>
 :trophy: Criação e adição de repositório no GitHub</br>
 :trophy: Criação e edição do Readme</br>
@@ -67,6 +63,8 @@ Feito apenas uma validação básica que caso você digite dá um alert pela fal
 
 ## Linguagens e libs utilizadas :books:
     * LINGUAGENS
+        - JAVASCRIPT
+        - API
         - HTML5
         - CSS3
 
