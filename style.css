@@ -146,17 +146,8 @@ footer {
     text-align: center;
 
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-}
 
-footer p{
-    transition: 0,2s;
-}
+
 
 footer a {
     margin-right: 10px;

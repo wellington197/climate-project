@@ -18,9 +18,7 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
         ${encodeURI(input)}&units=metric&lang=pt_br&appid=39db3334c13de78069d16a7e44c8227c`);
 
         //
-        let json = await results.json();
-
-        
+        let json = await results.json();       
         
         
         
@@ -42,6 +40,10 @@ document.querySelector('.busca').addEventListener('submit', async (event) => {
         clearInfo();
     }
 });
+
+
+
+
 
 function showInfo(obj) {
     showWarning('');
